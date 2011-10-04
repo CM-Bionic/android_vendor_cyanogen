@@ -12,7 +12,7 @@ $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 #
 PRODUCT_NAME := cyanogen_solana
 PRODUCT_BRAND := motorola
-PRODUCT_DEVICE := XT862
+PRODUCT_DEVICE := solana
 PRODUCT_MODEL := DROID3
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
