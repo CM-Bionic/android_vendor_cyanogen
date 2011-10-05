@@ -33,7 +33,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/solana
 
 # Broadcom FM radio
-$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+#$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 #
 # Set ro.modversion
