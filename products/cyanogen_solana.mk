@@ -33,21 +33,21 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/solana
 
 # Broadcom FM radio
-#$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 #
 # Set ro.modversion
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-SOLANA-KANG
+        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-SOLANA-SELFKANG
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
             ro.modversion=CyanogenMod-7.1.0-SOLANA
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-SOLANA-KANG
+            ro.modversion=CyanogenMod-7.1.0-SOLANA-SELFKANG
     endif
 endif
 
