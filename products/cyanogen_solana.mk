@@ -21,13 +21,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
    BUILD_DISPLAY_ID=5.5.1_84_D3G-55 \
    BUILD_FINGERPRINT=verizon/solana_vzw/cdma_solana:2.3.4/5.5.1_84_D3G-55/110812:user/release-keys \
    PRIVATE_BUILD_DESC="cdma_solana-user 2.3.4 5.5.1_84_D3G-55 110812 release-keys" \
-   TARGET_DEVICE=cdma_solana \
+   TARGET_DEVICE=solana_vzw \
    PRODUCT_BRAND=verizon \
-   BUILD_NUMBER=2.4.330 \
-   BUILD_UTC_DATE=1287722464 \
+   BUILD_NUMBER=110812 \
    TARGET_BUILD_TYPE=user \
    BUILD_VERSION_TAGS=release-keys \
-   USER=xrpk47
+   USER=w30471 \
+   BUILD_HOST=il93lnxdroid42 \
+   PRODUCT_DEFAULT_LANGUAGE=en \
+   PRODUCT_DEFAULT_REGION=US \
 
 # Extra Droid3 overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/solana
